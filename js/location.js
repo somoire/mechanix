@@ -9,17 +9,8 @@ $(document).ready(function() {
     $(".myForm").hide();
     $(".dropdown").show();
   });
-  $("#cbd").click(function() {
-    $("#town").show();
-    $(".dropdown").hide();
-  });
-  $("#thikaTown").click(function() {
-    $("#thika").show();
-    $("#town").hide();
-    $(".dropdown").hide();
-  });
-
 });
+
 $(document).ready(function() {
   $(window).scroll(function() {
     if ($(this).scrollTop() > 32) {
@@ -27,7 +18,7 @@ $(document).ready(function() {
     } else {
       $(".gotop").fadeOut();
     }
-  })
+  });
 
   $("#hire").click(function() {
     $("#nai").fadeOut();
@@ -240,4 +231,4 @@ $(document).ready(function() {
     $("#wservice3").fadeOut(2000);
     $("#wchance3").slideDown(1000);
   })
-})
+});
