@@ -4,155 +4,49 @@
 <head>
   <meta charset="utf-8">
   <title>Location</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/location.css" type="text/css">
+  <script src="js/bootstrap.js">
+
+  </script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script src="js/location.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Calligraffitti|Covered+By+Your+Grace|Marck+Script|Pacifico" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Calligraffitti|Covered+By+Your+Grace|Doppio+One|Marck+Script|Pacifico" rel="stylesheet">
 </head>
+
 <body>
-  <div class="container">
-    <form class="myForm">
-      <div class="form-group">
-        <label for="message"></label>
-        <textarea class="form-control" id="message" placeholder="State Problem"></textarea>
-      </div>
-    <button type="button" class="btn btn-primary" id="but">Send message</button>
-    </form>
-    <div class="dropdown">
-      <button class="dropbtn">Choose Location</button>
-      <div class="dropdown-content">
-        <a id="cbd">CBD</a>
-        <a id="thikaTown">Thika</a>
-        <a id="mombasaTown">Mombasa</a>
-        <a id="jogoo">Jogoo</a>
-        <a id="ngong">Ngong</a>
-        <a id="langata">Langata</a>
-        <a id="waiyaki">Waiyaki</a>
-        <a id="kiambu">Kiambu</a>
-        <a id="limuru">Limuru</a>
-        <a id="Kangundo">Kangundo</a>
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="row" id="town">
-        <h1>CENTRAL BUSINESS DISTRICT</h1>
-        <div class="col-md-4">
-          <div class="thumbnail">
-            <img src="https://cdn4.iconfinder.com/data/icons/avatar-male/920/Mechanic_Character-512.png" alt="" class="img-thumbnail">
-          </div>
-          <div class="caption">
-            <h5><strong>NAME</strong> :MARKUS MWANGI</h5>
-            <h6><strong>LOCATION </strong>:NAIROBI CBD</h6>
-            <h6><strong>CONTACTS</strong> :O725044672</h6>
-          </div>
-          <button type="button" name="button" class="btn btn-primary" data-toggle="modal" data-target ="#cbd1">VIEW PROFILE</button>
-          <div class="modal fade" id="cbd1" tabindex="-1" role="dialog">
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h3>MARKUS MWANGI</h3>
-                </div>
-                <div class="modal-body">
-
-                </div>
-            </div>
-
-            </div>
-          </div>
+  <div class="topnav">
+    <a id="mekanix">MEKANIX</a>
+    <a id="home" class="active" href="landing.html">Home</a>
+    <a href="contactUs.html">Contact Us</a>
+    <a href="aboutUs.html">About Us</a>
+    <a href="#login" id="login">Sign In|Register</a>
+  </div>
+  <div class="locationImage">
+    <div class="locationContent">
+      <form class="myForm">
+        <div class="form-group">
+          <label for="message"></label>
+          <textarea class="form-control" id="message" placeholder="State your Problem"></textarea>
         </div>
-        <div class="col-md-4">
-          <div class="thumbnail">
-            <img src="https://cdn4.iconfinder.com/data/icons/avatar-male/920/Mechanic_Character-512.png" alt="" class="img-thumbnail" alt="">
-          </div>
-          <div class="caption">
-            <h5><strong>NAME</strong> :MARKUS MWANGI</h5>
-            <h6><strong>LOCATION</strong> :NAIROBI CBD</h6>
-            <h6><strong>CONTACTS</strong>:O725044672</h6>
-          </div>
-        </div>
-        <div class="col-md-4">
-
-          <div class="thumbnail">
-            <img src="https://cdn4.iconfinder.com/data/icons/avatar-male/920/Mechanic_Character-512.png" alt="" class="img-thumbnail" alt="">
-          </div>
-          <div class="caption">
-            <h5><strong>NAME</strong> :MARKUS MWANGI</h5>
-            <h6><strong>LOCATION</strong> :NAIROBI CBD</h6>
-            <h6><strong>CONTACTS</strong> :O725044672</h6>
-          </div>
-        </div>
-      </div>
-      <div class="row" id="thika">
-        <h1>THIKA ROAD</h1>
-        <div class="col-md-4">
-          <div class="thumbnail">
-            <img src="https://cdn4.iconfinder.com/data/icons/avatar-male/920/Mechanic_Character-512.png" alt="" class="img-thumbnail">
-          </div>
-          <div class="caption">
-            <h5><strong>NAME</strong> :MARKUS MWANGI</h5>
-            <h6><strong>LOCATION</strong> :NAIROBI CBD</h6>
-            <h6><strong>CONTACTS</strong> :O725044672</h6>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="thumbnail">
-            <img src="https://cdn4.iconfinder.com/data/icons/avatar-male/920/Mechanic_Character-512.png" alt="" class="img-thumbnail" alt="">
-          </div>
-          <div class="caption">
-            <h5><strong>NAME</strong> :MARKUS MWANGI</h5>
-            <h6><strong>LOCATION</strong> :NAIROBI CBD</h6>
-            <h6><strong>CONTACTS</strong> :O725044672</h6>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="thumbnail">
-            <img src="https://cdn4.iconfinder.com/data/icons/avatar-male/920/Mechanic_Character-512.png" alt="" class="img-thumbnail" alt="">
-          </div>
-          <div class="caption">
-            <h5><strong>NAME</strong> :MARKUS MWANGI</h5>
-            <h6><strong>LOCATION</strong> :NAIROBI CBD</h6>
-            <h6><strong>CONTACTS</strong> :O725044672</h6>
-          </div>
-        </div>
-      </div>
-      <div id="mombasa">
-      <h1>MOMBASA ROAD</h1>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="thumbnail">
-            <img src="https://cdn4.iconfinder.com/data/icons/avatar-male/920/Mechanic_Character-512.png" alt="" class="img-thumbnail">
-          </div>
-          <div class="caption">
-            <h5><strong>NAME</strong>:MARKUS MWANGI</h5>
-            <h6><strong>LOCATION</strong> :NAIROBI CBD</h6>
-            <h6><strong>CONTACTS</strong> :O725044672</h6>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="thumbnail">
-            <img src="https://cdn4.iconfinder.com/data/icons/avatar-male/920/Mechanic_Character-512.png" alt="" class="img-thumbnail" alt="">
-          </div>
-          <div class="caption">
-            <h5><strong>NAME</strong> :MARKUS MWANGI</h5>
-            <h6><strong>LOCATION</strong> :NAIROBI CBD</h6>
-            <h6><strong>CONTACTS</strong> :O725044672</h6>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="thumbnail">
-            <img src="https://cdn4.iconfinder.com/data/icons/avatar-male/920/Mechanic_Character-512.png" alt="" class="img-thumbnail" alt="">
-          </div>
-          <div class="caption">
-            <h5><strong>NAME</strong> :MARKUS MWANGI</h5>
-            <h6><strong>LOCATION</strong> :NAIROBI CBD</h6>
-            <h6><strong>CONTACTS</strong> :O725044672</h6>
-          </div>
+        <button type="button" class="btn btn-primary" id="but">Send message</button>
+      </form>
+      <div class="dropdown">
+        <button class="dropbtn">Choose Location</button>
+        <div class="dropdown-content">
+          <a id="cbd">CBD</a>
+          <a id="thikaTown">Thika</a>
+          <a id="mombasaTown">Mombasa</a>
+          <a id="jogoo">Jogoo</a>
+          <a id="ngong">Ngong</a>
+          <a id="langata">Langata</a>
+          <a id="waiyaki">Waiyaki</a>
         </div>
       </div>
     </div>
-    </div>
-</div>
+  </div>
+
 </body>
 
 </html>
