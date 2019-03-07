@@ -51,7 +51,7 @@ $(document).ready(function() {
   })
 
   $("#t-hire").click(function() {
-    $("#thika").fadeOut();
+    $("#thikatown").fadeOut();
     $("#tservice").fadeIn()
   });
 
