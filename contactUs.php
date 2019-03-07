@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact us</title>
+</head>
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/location.css" type="text/css">
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="js/location.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Calligraffitti|Covered+By+Your+Grace|Marck+Script|Pacifico" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Calligraffitti|Covered+By+Your+Grace|Doppio+One|Marck+Script|Pacifico" rel="stylesheet">
+
+<body>
+  <div class="topnav">
+    <a id="mekanix">MEKANIX</a>
+    <a id="home" class="active" href="landing.html">Home</a>
+    <a href="contactUs.html">Contact Us</a>
+    <a href="aboutUs.html">About Us</a>
+    <a href="#logout" id="login">Log out</a>
+  <a href="#login" id="login">Log in</a>
+
+  </div>
+  <div class="container">
+    <div class="test-box">
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Complaint,comment,compliment? We'd love to hear from you.You can reach us via:</h2>
+          <h3> Email:</h3>
+          <li>info@mekanix.com</li>
+          <li>inquiry@mekanix.com</li>
+          <h3>To become one of our partner mechanics:</h3>
+          <li>mechpartner@mekanix.com</li>
+          <h3>or phone:</h3>
+          <li>76367472783</li>
+          <li>37278728377</li>
+          <h3> We are social.Follow us-</h3>
+          <li><strong><em>@mekanix</em></strong>,on Facebook,Twitter,Instagram and Snapchat.</li>
+        </div>
+        <div class="col-md-6">
+          <form>
+            <div class="from-group">
+              <h2>LEAVE US A MESSAGE.WE'LL GET BACK TO YOU AS SOON AS POSSIBLE!</h2>
+              <label for="name">Name</label>
+              <input type="text" class="form-control" id="name">
+              <label for="email">Email Address</label>
+              <input type="text" class="form-control" id="email">
+              <label for="message">Message</label>
+              <input type="text" class="form-control" id="message">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
+<? php
+session_start();
+$name=$_SESSION['username'];
+?>
