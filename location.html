@@ -39,12 +39,12 @@
   </button>
   <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
     <li><a href="#nrb">CBD</a></li>
-    <li><a href="#newt">Thika</a></li>
-    <li><a href="#mt">Mombasa</a></li>
-    <li><a href="#jogoo">Jogoo</a></li>
-    <li><a href="#ngong">Ngong</a></li>
-    <li><a href="#langata">Langata</a></li>
-    <li><a href="#waiyaki">Waiyaki</a></li>
+    <li><a href="#newt">Thika Road</a></li>
+    <li><a href="#mt">Mombasa Road</a></li>
+    <li><a href="#jogoo">Jogoo Road</a></li>
+    <li><a href="#ngong">Ngong Road</a></li>
+    <li><a href="#langata">Langata Road</a></li>
+    <li><a href="#waiyaki">Waiyaki Way</a></li>
   </ul>
 </div>
       </div>
@@ -113,14 +113,18 @@
                   <div class="col-md-8">
                     <label>ADD A REVIEW TO OUR MECHANIC</label>
                     <div class="form-group">
-                      <form>
-                        <textarea name="name" rows="8" cols="80"></textarea> <br>
-                        <button type="submit" name="button" class="btn btn-info">SUBMIT</button>
+                      <form id="feedback">
+                        <textarea name="name" rows="8" cols="80" id="answer"></textarea> <br>
+                        <button type="submit" name="button" class="btn btn-info " onclick="reload()">SUBMIT</button>
                       </form>
                     </div>
                   </div>
                 </div>
+                <div class="col-md-4">
+                  <ul id="reviews">
 
+                  </ul>
+                </div>
               </div>
 
             </div>

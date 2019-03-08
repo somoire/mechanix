@@ -9,6 +9,16 @@ $(document).ready(function() {
     $(".myForm").hide();
     $(".dropdown").show();
   });
+
+  $("form#feedback").submit(function(event){
+    event.preventDefault();
+    var output = $("#answer").val();
+    $("ul#reviews").append('<h3 id="rev"></h3>');
+    $("#rev").text(output);
+    function reload () {
+      location.reload();
+    }
+  })
 });
 
 $(document).ready(function() {
