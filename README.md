@@ -1,5 +1,5 @@
-# Mekanix
-#### Mekanix, March 7th 2019
+# Mechanix
+#### Mechanix, March 7th 2019
 #### By **Tashanah Muhando,John Muasa,Jackie Gatwiri,Phil Kipkemboi**
 ## Description
 This app allows users to request for mechanics who come to their aid when they are stranded in an area with no mechanic in sight.
@@ -32,7 +32,7 @@ There are no known bugs,incase you encounter other bugs please reach out via the
 
 ### License
 * MIT License
-* Copyright (c) 2019 **Mekanix**
+* Copyright (c) 2019 **Mechanix**
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sub-license, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
